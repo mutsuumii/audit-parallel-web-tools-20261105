@@ -1,0 +1,181 @@
+{
+  "source_repo": "parallel-web/parallel-web-tools",
+  "source_url": "https://github.com/parallel-web/parallel-web-tools",
+  "audit_date": "2026-11-05T10:03:03.897252",
+  "ai_model": "gemini-2.0-flash",
+  "findings_count": 21,
+  "severity_breakdown": {
+    "HIGH": 19,
+    "CRITICAL": 2
+  },
+  "findings": [
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_service.py",
+      "line": 199
+    },
+    {
+      "id": "PY-SQLI-001",
+      "name": "SQL injection via string formatting",
+      "severity": "CRITICAL",
+      "cwe": "CWE-89",
+      "file": "parallel_web_tools/integrations/duckdb/findall.py",
+      "line": 183
+    },
+    {
+      "id": "PY-SQLI-001",
+      "name": "SQL injection via string formatting",
+      "severity": "CRITICAL",
+      "cwe": "CWE-89",
+      "file": "parallel_web_tools/integrations/duckdb/findall.py",
+      "line": 195
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "parallel_web_tools/integrations/spark/udf.py",
+      "line": 200
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 156
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 157
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 490
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 544
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 548
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 726
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 800
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 842
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 845
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 861
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 886
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 991
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 1023
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_auth.py",
+      "line": 1043
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "parallel_web_tools/integrations/snowflake/__init__.py",
+      "line": 15
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "parallel_web_tools/integrations/snowflake/__init__.py",
+      "line": 16
+    },
+    {
+      "id": "PY-CRED-001",
+      "name": "Hardcoded credentials",
+      "severity": "HIGH",
+      "cwe": "CWE-798",
+      "file": "tests/test_findall.py",
+      "line": 231
+    }
+  ]
+}
