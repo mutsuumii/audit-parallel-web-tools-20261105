@@ -2,7 +2,6 @@
   "source_repo": "parallel-web/parallel-web-tools",
   "source_url": "https://github.com/parallel-web/parallel-web-tools",
   "audit_date": "2026-11-05T10:03:03.897252",
-  "ai_model": "gemini-2.0-flash",
   "findings_count": 21,
   "severity_breakdown": {
     "HIGH": 19,
@@ -177,5 +176,6 @@
       "file": "tests/test_findall.py",
       "line": 231
     }
-  ]
+  ],
+  "scanner_version": "1.3.0"
 }
